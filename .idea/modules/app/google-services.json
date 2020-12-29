@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "340291582505",
+    "project_id": "loginfoody",
+    "storage_bucket": "loginfoody.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340291582505:android:12b1e906090b0ed973fa38",
+        "android_client_info": {
+          "package_name": "com.hlong.finallt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340291582505-ufehats4me7tlptblmqvedqnieofg5o2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hlong.finallt",
+            "certificate_hash": "3c37093e0e827b0342a859b520b115c83867adcf"
+          }
+        },
+        {
+          "client_id": "340291582505-3kt7sqhdeau4ugmcfi387dfm4tso52k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRao5vSOa-I37-ElkT-zsjsh0wT1AHVsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340291582505-3kt7sqhdeau4ugmcfi387dfm4tso52k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
