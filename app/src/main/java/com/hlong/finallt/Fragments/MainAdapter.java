@@ -49,7 +49,7 @@ public class MainAdapter extends BaseAdapter {
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.row_item, null);
         }
-        ImageView imageView = convertView.findViewById(R.id.image_view);
+        ImageView imageView = convertView.findViewById(R.id.imgFoodUpdate);
         TextView textView = convertView.findViewById(R.id.textView);
         TextView textViewrv1 = convertView.findViewById(R.id.textViewrv1);
 

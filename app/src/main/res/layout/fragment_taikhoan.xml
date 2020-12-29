@@ -51,13 +51,15 @@
                 android:orientation="horizontal">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/avt_pf"
+                    android:id="@+id/profile"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/ic_user"></de.hdodenhof.circleimageview.CircleImageView>
+                    android:src="@drawable/avatar">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
 
                 <TextView
                     android:id="@+id/pf_dangnhap"
@@ -66,7 +68,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
-                    android:text="Đăng nhập/Đăng ký"
+                    android:text="mt.hlong.2000@gmail.com"
                     android:textColor="#FFFFFF" />
 
                 <TextView
@@ -245,6 +247,7 @@
                         android:src="@drawable/ic_app_nowmerchant"></de.hdodenhof.circleimageview.CircleImageView>
 
                     <TextView
+                        android:id="@+id/tv_chinhsuaquanan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -252,7 +255,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:drawableEnd="@drawable/arrow_dark_remove2"
-                        android:text="Ứng dụng cho chủ quán"
+                        android:text="Quản lí quán ăn dành cho admin"
                         android:textColor="#000000" />
 
                 </LinearLayout>

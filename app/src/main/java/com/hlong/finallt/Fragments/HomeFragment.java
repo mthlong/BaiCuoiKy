@@ -57,6 +57,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         cardGiaohang =v.findViewById(R.id.card_giaohang);
         cardDatcho =v.findViewById(R.id.card_datcho);
 
+
         gridView = v.findViewById(R.id.gridview_trangchu);
 
         MainAdapter adapter = new MainAdapter(getActivity(), food, numberImage, review1);
@@ -138,8 +139,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
                 break;
 
             case R.id.card_giaohang:
-                fragment = new GiaoHangFragment();
-                replaceFragment(fragment);
+                Intent i = new Intent(getActivity(), GiaoHang.class);
+                startActivity(i);
                 break;
             case R.id.card_datcho:
                 fragment = new DatChoFragment();
